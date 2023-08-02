@@ -44,6 +44,7 @@ def run_detail1(code,name,url):
 		col2.insert(detail)
 	except:
 		run_detail2(code,name,url)
+		run_detail2(code,name,url)
 
 
 soup=getstart.geturl_gbk(url)
